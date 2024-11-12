@@ -1,0 +1,26 @@
+# Logic Pro specific
+*.logicx/Alternatives/*/Undo Data.nosync/
+*.logicx/Alternatives/*/Project File Backups/
+*.logicx/**/DisplayStateArchive
+
+# macOS system files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logic Pro temporary files
+*.autosave.*
+*.pek
+*.pcm
+*.caf
+*.stvidx
+
+# Logic Pro project settings that change frequently
+*.logicx/**/DisplayState.plist
+
+# Music apps project folder
+.musicapps-project-folder
